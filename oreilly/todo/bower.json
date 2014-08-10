@@ -1,0 +1,31 @@
+{
+  "name": "todo",
+  "version": "0.1",
+  "homepage": "https://github.com/ASwitlyk/backbone_testing",
+  "authors": [
+    "Andrew Switlyk <andrewcswitlyk@gmail.com>"
+  ],
+  "description": "Todo list using backbone MV*",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "todo",
+    "list"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone.localStorage": "~1.1.13",
+    "backbone": "~1.1.2",
+    "jquery": "~2.1.1",
+    "underscore": "~1.6.0"
+  }
+}
